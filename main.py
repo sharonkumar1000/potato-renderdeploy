@@ -51,7 +51,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.models.load_model("../models/1.h5")
+MODEL = tf.keras.models.load_model("1.h5")
 CLASSES_NAMES = ["Early Binding","Late Binding","Healthy"]
 
 @app.get("/ping")
