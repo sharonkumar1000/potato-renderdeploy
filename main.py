@@ -14,7 +14,7 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",
-     "https://your-deployed-frontend-url.com"
+    "https://thunderous-seahorse-e5f2dd.netlify.app"
 ]
 app.add_middleware(
     CORSMiddleware,
